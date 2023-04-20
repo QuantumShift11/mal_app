@@ -11,7 +11,7 @@ router.get("/csrf_explt",csrf_explt); // Home page
 
 router.get("/uiredress",uiredress); // Home page reverse_tab
 
-router.get("/tabnab",tabnab); // Home page reverse_tab
+router.get("/login",tabnab); // Home page reverse_tab
 
 router.get("/tabnab_script",tabnab_script); // Home page reverse_tab
 

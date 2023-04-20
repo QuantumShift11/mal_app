@@ -33,7 +33,7 @@ exports.tabnab_script = function(req,res){
     }
 
 exports.tabnab = function(req,res){
-        res.render("pages/tabnab",{
+        res.render("pages/login",{
             "error":"",
             "isLoggedIn": false
         });
