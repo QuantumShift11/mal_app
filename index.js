@@ -3,7 +3,7 @@ const session = require("express-session");
 const mongoose = require("mongoose");
 const redis = require('connect-redis');
 const routes = require("./routes");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8070;
 
 const app = express();
 app.use(express.json());
