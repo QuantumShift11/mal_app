@@ -38,3 +38,16 @@ exports.tabnab = function(req,res){
             "isLoggedIn": false
         });
     }
+
+exports.read_article = function(req,res){
+        res.render("pages/xss_exploit",{
+            "error":"",
+            "isLoggedIn": false
+        });
+    }
+
+
+exports.logger = function(req,res){
+        console.log('check cookies for xss and credentials for tabnabbing')
+        res.send('<p>xs787asbca6w62cjabjcs</p>')
+       }

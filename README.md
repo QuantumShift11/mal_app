@@ -1,5 +1,13 @@
 ### Malicious app to host static pages for clickjacking | reverse tabnabbing | csrf
 
+requirement - 
+*redis        - docker local or connection string for remote
+*mongoose     - docker local or connection string for remote
+*nvm node npm - 
+
+npm run dev
+npm run prod
+
 npm i bcrypt connect-redis ejs express express-session redis mongoose
 npm run dev
 
@@ -7,6 +15,10 @@ redis-server
 redis-cli KEYS \* 
 
 mongodb
+
+
+npm i morgan
+
 
 ---------------------------------------------------------------------------------------------------------
 
